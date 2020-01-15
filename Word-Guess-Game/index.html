@@ -1,0 +1,59 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Guessing Game</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    
+
+    <!-- <link rel="stylesheet" href="assets/css/reset.css">
+    <!-- <link rel="stylesheet" href="assets/css/style.css"> --> -->
+    <img id="titleImage" src="assets/images/wallpaper.jpeg" alt="80's cartoons" style="width:50%">
+    <!-- <img id="gameOverImage" src="assets/images/game-over.jpg" alt="you win image" style="width:50%">  -->
+    <!-- <img id="youWinImage" src="assets/images/you-win.jpg" alt="game over image" style="width:50%" , align:center> --> 
+
+    <script src="assets/javascript/game.js"></script>
+
+</head>
+
+<body>
+    <div class="container mt-3 pt-4">
+        <div class="jumbotron mt-5 mb-5 pt-5">
+            <div class="row">
+                <div class="col-lg-12 pt-4">
+                    <div class="text-center">
+
+<div>
+    <h1>Word Guessing Game!</h1>
+
+
+    <h3>Press Any Key To Get Started!</h3>
+    <br>
+
+    <h4>Wins: <span id="totalWins"></span> </h4>
+    <br>
+    <h3>Current word: <span id="currentWord"></span></h3>
+    <br>
+    <h4>Number of guesses remaining: <span id="remainingGuesses"></span></h4>
+    <br>
+    <h3>Letters already guessed: <span id="guessedLetters"></span></h3>
+
+</div>
+
+<script>
+    resetGame();
+    updateDisplay();
+</script>
+
+
+
+
+
+</body>
+
+
+
+</html>
